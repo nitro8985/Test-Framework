@@ -1,2 +1,2 @@
-# Test-Framework
-Tiny testing framework and its usage example
+# Test Framework
+## Tiny testing framework based on Selenium and its usage example

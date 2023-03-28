@@ -1,0 +1,6 @@
+{
+  "simpleAlertText": "You clicked a button",
+  "confirmAlertText": "Do you confirm action?",
+  "confirmResult": "You selected Ok",
+  "promptAlertText": "Please enter your name"
+}
