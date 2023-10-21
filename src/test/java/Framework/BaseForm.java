@@ -17,7 +17,10 @@ public abstract class BaseForm {
     }
 
     public boolean isOpen() {
-        List<WebElement> list = SingletonBrowser.getDriver().findElements(uniqueFormLocator);
+        List<WebElement> list = SingletonBrowser.getDriver()
+                .switchTo()
+                .defaultContent()
+                .findElements(uniqueFormLocator);
         return list.size() > 0;
     }
 }

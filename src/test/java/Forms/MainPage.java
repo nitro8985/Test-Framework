@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 
 public class MainPage extends BaseForm {
 
-    private final Button alertsFrameAndWindowsButton = new Button(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div/div[3]"),
+    private final Button alertsFrameAndWindowsButton = new Button(By.xpath("//*[text()='Alerts, Frame & Windows']"),
             "alertsFrameAndWindows");
-    private final Button elementsButton = new Button(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div/div[1]"),
+    private final Button elementsButton = new Button(By.xpath("//*[text()='Elements']"),
             "elementsButton");
 
     public MainPage() {

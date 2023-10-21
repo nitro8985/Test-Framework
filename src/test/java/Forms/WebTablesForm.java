@@ -5,14 +5,13 @@ import Framework.Button;
 import Framework.Utils.SingletonBrowser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.locators.RelativeLocator;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class WebTablesForm extends BaseForm {
 
-    private final Button webTablesButton = new Button(RelativeLocator.with(By.id("item-3")).below(By.className("navbar")),
+    private final Button webTablesButton = new Button(By.xpath("//*[text()='Web Tables']"),
             "webTablesButton");
     private final Button addButton = new Button(By.id("addNewRecordButton"), "addButton");
 
